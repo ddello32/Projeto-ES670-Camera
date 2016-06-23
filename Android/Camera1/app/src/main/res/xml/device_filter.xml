@@ -22,6 +22,5 @@
     <usb-device vendor-id="6790" product-id="29987" />
 
     <!-- FRDM KL25Z -->
-    <usb-device vendor-id="c251" product-id="f002" />
-    <usb-device vendor-id="2504" product-id="0300" />
+    <usb-device vendor-id="4951" product-id="137" />
 </resources>

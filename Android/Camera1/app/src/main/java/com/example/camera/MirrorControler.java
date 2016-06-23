@@ -38,6 +38,6 @@ public class MirrorControler {
     }
 
     private void sendMvCmd(int angle){
-        comManager.usbWrite(String.format("P%d\n", angle));
+        comManager.usbWrite(String.format("P%d\r\n", angle));
     }
 }

@@ -12,7 +12,7 @@ import android.view.SurfaceView;
 public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback {
     private SurfaceHolder mHolder;
     private Camera mCamera;
-    String TAG = CameraPreview.class.getName();
+    String TAG = "PORRA";
 
     public CameraPreview(Context context, Camera camera) {
         super(context);

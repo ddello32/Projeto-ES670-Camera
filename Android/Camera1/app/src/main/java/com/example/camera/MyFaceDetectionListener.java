@@ -13,7 +13,7 @@ public class MyFaceDetectionListener implements Camera.FaceDetectionListener {
     @Override
     public void onFaceDetection(Camera.Face[] faces, Camera camera) {
         if (faces.length > 0){
-            Log.d("MyFaceDetector", "Found Face: X = " + faces[0].rect.centerX() + ", Y = " + faces[0].rect.centerY());
+            Log.d("PORRA", "Found Face: X = " + faces[0].rect.centerX() + ", Y = " + faces[0].rect.centerY());
             mirrorControler.foundFace(faces[0]);
         }
     }

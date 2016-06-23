@@ -46,7 +46,7 @@ public class CameraManager {
                     break;
                 }
             }
-            Log.d("INIT", ""+i);
+            Log.d("PORRA", ""+i);
             c = Camera.open(i);
         }
         catch (Exception e){
