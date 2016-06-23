@@ -1,0 +1,212 @@
+I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
+{ ISubsystem 
+	- _id = GUID 20246198-4c47-4bfe-9397-a7aa14ffd20f;
+	- _myState = 8192;
+	- _name = "_Projeto_Pratico";
+	- _objectCreation = "221023013432016122609422";
+	- _umlDependencyID = "3216";
+	- Annotations = { IRPYRawContainer 
+		- size = 7;
+		- value = 
+		{ IComment 
+			- _id = GUID 28f0689a-ecff-4bb0-941d-4a8badc4b580;
+			- _myState = 2048;
+			- _name = "comment_0";
+			- _objectCreation = "221023213432016122607422";
+			- _umlDependencyID = "2463";
+			- _description = { IDescription 
+				- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1046{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\b\\fs20 ES670 -  Projeto de Sistemas Embarcados\\par
+\\b0 Projeto Pr\\'e1tico - 1o semestre/2016\\par
+\\par
+Diagrama de Requisitos de Sistema\\par
+}
+";
+			}
+			- _body = "";
+		}
+		{ IComment 
+			- _id = GUID dec1f94f-1152-46e1-904d-55660096766c;
+			- _myState = 2048;
+			- _name = "comment_14";
+			- _objectCreation = "221023413432016122605422";
+			- _umlDependencyID = "2516";
+			- _description = { IDescription 
+				- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1046{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\b\\fs20 ES670 -  Projeto de Sistemas Embarcados\\par
+\\b0 Projeto Pr\\'e1tico - 1o semestre/2016\\par
+\\par
+Diagrama de Defini\\'e7\\'e3o de Blocos\\par
+\\par
+}
+";
+			}
+			- _body = "";
+		}
+		{ IComment 
+			- _id = GUID ff49df2e-66b1-405c-9a1d-efad749c7d2c;
+			- _myState = 2048;
+			- _name = "comment_21";
+			- _objectCreation = "221023613432016122603422";
+			- _umlDependencyID = "2514";
+			- _description = { IDescription 
+				- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1046{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\b\\fs20 ES670 -  Projeto de Sistemas Embarcados\\par
+\\b0 Projeto Pr\\'e1tico - 1o semestre/2016\\par
+\\par
+Diagrama de Pacotes\\par
+}
+";
+			}
+			- _body = "";
+		}
+		{ IComment 
+			- _id = GUID 5afd59e4-c604-4c4e-887e-b0d9ede1f18d;
+			- _myState = 2048;
+			- _name = "comment_23";
+			- _objectCreation = "221023813432016122601422";
+			- _umlDependencyID = "2516";
+			- _description = { IDescription 
+				- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1046{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\b\\fs20 ES670 -  Projeto de Sistemas Embarcados\\par
+\\b0 Projeto Pr\\'e1tico - 1o semestre/2015\\par
+\\par
+Diagrama de Sequ\\'eancia - Interpretador de Comandos\\par
+\\par
+}
+";
+			}
+			- _body = "";
+		}
+		{ IComment 
+			- _id = GUID 86830b65-a694-45fb-86b8-7d602387707b;
+			- _myState = 2048;
+			- _name = "comment_25";
+			- _objectCreation = "221024013432016122599422";
+			- _umlDependencyID = "2527";
+			- _description = { IDescription 
+				- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1046{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\b\\fs20 ES670 -  Projeto de Sistemas Embarcados\\par
+\\b0 Projeto Pr\\'e1tico - 1o semestre/2015\\par
+\\par
+Diagrama de Defini\\'e7\\'e3o de Blocos - \\b <<Subsystem>> LCD\\par
+}
+";
+			}
+			- _body = "";
+		}
+		{ IComment 
+			- _id = GUID f332d7c4-9288-4bf0-afd9-03ed3f251a6b;
+			- _myState = 2048;
+			- _name = "comment_27";
+			- _objectCreation = "221024213432016122597422";
+			- _umlDependencyID = "2529";
+			- _description = { IDescription 
+				- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1046{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\b\\fs20 ES670 -  Projeto de Sistemas Embarcados\\par
+\\b0 Projeto Pr\\'e1tico - 1o semestre/2015\\par
+\\par
+Bloco do ADC para ser integrado ao resto do sistema\\par
+}
+";
+			}
+			- _body = "";
+		}
+		{ IComment 
+			- _id = GUID 1c6aff64-4936-4d1f-a7e1-13ea01f4e0ae;
+			- _myState = 2048;
+			- _name = "comment_30";
+			- _objectCreation = "221024413432016122595422";
+			- _umlDependencyID = "2523";
+			- _description = { IDescription 
+				- _text = "Semanas 4 e 5";
+			}
+			- _body = "";
+		}
+	}
+	- _theMainDiagram = { IHandle 
+		- _m2Class = "IDiagram";
+		- _filename = "";
+		- _subsystem = "";
+		- _class = "";
+		- _name = "diag_pacotes";
+		- _id = GUID 604328de-2202-48b3-9d1a-353bbeb75331;
+	}
+	- _lastID = 31;
+	- Declaratives = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IStereotype 
+			- _id = GUID bdee0ab5-d5a0-4569-8f02-ac8f107b96c3;
+			- _myState = 8192;
+			- _name = "File";
+			- _objectCreation = "221024613432016122593422";
+			- _umlDependencyID = "1958";
+			- _m2Classes = { IRPYRawContainer 
+				- size = 1;
+				- value = "Class"; 
+			}
+		}
+	}
+	- weakCGTime = 3.30.2016::20:28:45;
+	- strongCGTime = 1.21.2016::20:20:26;
+	- _defaultComposite = GUID 0d5184b0-4db2-4cdb-a85e-27b5b9b2898f;
+	- _eventsBaseID = 29601;
+	- Classes = { IRPYRawContainer 
+		- size = 2;
+		- value = 
+		{ IClass 
+			- _id = GUID 0d5184b0-4db2-4cdb-a85e-27b5b9b2898f;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _objectCreation = "221024813432016122591422";
+			- _umlDependencyID = "2385";
+			- weakCGTime = 3.30.2016::20:28:45;
+			- strongCGTime = 1.21.2016::20:20:26;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID d32248dd-74d9-479b-b8a9-cc8ac7ccc303;
+			- _myState = 8192;
+			- _name = "MKL25Z4";
+			- _objectCreation = "221025013432016122589422";
+			- _umlDependencyID = "2047";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID bdee0ab5-d5a0-4569-8f02-ac8f107b96c3;
+				}
+			}
+			- weakCGTime = 3.30.2016::13:58:9;
+			- strongCGTime = 1.21.2016::20:16:59;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- Events = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IEvent 
+			- _id = GUID 5c5570d9-ea15-49f5-8260-4d76de352f06;
+			- _myState = 8192;
+			- _name = "timeout_500ms";
+			- _objectCreation = "221025213432016122587422";
+			- _umlDependencyID = "2817";
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+	}
+	- _configurationRelatedTime = 3.30.2016::20:28:45;
+}
+

@@ -1,0 +1,408 @@
+I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
+{ ISubsystem 
+	- _id = GUID a9bfd00a-eefd-40b0-8807-d7abb8ac9870;
+	- _myState = 8192;
+	- _name = "Main";
+	- _objectCreation = "341471316320162024912634";
+	- _umlDependencyID = "1971";
+	- _theMainDiagram = { IHandle 
+		- _m2Class = "IDiagram";
+		- _filename = "";
+		- _subsystem = "";
+		- _class = "";
+		- _name = "diag_pacotes";
+		- _id = GUID 604328de-2202-48b3-9d1a-353bbeb75331;
+	}
+	- weakCGTime = 6.16.2016::23:3:19;
+	- strongCGTime = 1.22.2015::11:59:11;
+	- _defaultComposite = GUID 2cdc426f-96aa-4065-987b-0f70175015a8;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 2;
+		- value = 
+		{ IClass 
+			- _id = GUID 2cdc426f-96aa-4065-987b-0f70175015a8;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _objectCreation = "341471516320162024910634";
+			- _umlDependencyID = "2393";
+			- weakCGTime = 5.21.2016::0:28:29;
+			- strongCGTime = 1.22.2015::11:59:11;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 24edaf1f-6db0-4e29-bf9d-2cfd75f2e63c;
+			- _myState = 8192;
+			- _name = "es670";
+			- _objectCreation = "341471716320162024908634";
+			- _umlDependencyID = "1964";
+			- Dependencies = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IDependency 
+					- _id = GUID a76f61da-437f-4210-8cfb-c8390c8878ca;
+					- _myState = 2048;
+					- _name = "es670_peripheral_board";
+					- _objectCreation = "341471916320162024906634";
+					- _umlDependencyID = "3742";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypes.sbs";
+							- _subsystem = "PredefinedTypes";
+							- _class = "";
+							- _name = "Usage";
+							- _id = GUID 42aa4325-6112-4e88-87ce-66008878f1db;
+						}
+					}
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _filename = "KL25Z.sbs";
+						- _subsystem = "KL25Z";
+						- _class = "";
+						- _name = "es670_peripheral_board";
+						- _id = GUID aa110bb3-0172-4266-a0b1-29e5f9f27d13;
+					}
+				}
+			}
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "PredefinedTypesC++.sbs";
+					- _subsystem = "PredefinedTypesCpp";
+					- _class = "";
+					- _name = "Subsystem";
+					- _id = GUID 4ea1c1da-7dc6-4a35-bc5a-313393e8408f;
+				}
+			}
+			- _description = { IDescription 
+				- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\uc1\\deff0\\deflang1046\\deflangfe1046{\\fonttbl{\\f0\\fcharset0 Courier New;}{\\f1 Arial;}}
+\\f0{\\colortbl;}{\\*\\generator Wine Riched20 2.0.????;}\\pard\\sl-240\\slmult1\\li0\\fi0\\ri0\\sa0\\sb0\\s-1\\cfpat0\\cbpat0{\\fs16\\ulnone F}{\\fs16\\ulnone i}{\\fs16\\ulnone l}{\\fs16\\ulnone e}{\\fs16\\ulnone  }{\\fs16\\ulnone n}{\\fs16\\ulnone a}{\\fs16\\ulnone m}{\\fs16\\ulnone e}{\\fs16\\ulnone :}\\tab \\tab {\\fs16\\ulnone  }{\\fs16\\ulnone e}{\\fs16\\ulnone s}{\\fs16\\ulnone 6}{\\fs16\\ulnone 7}{\\fs16\\ulnone 0}{\\fs16\\ulnone .}{\\fs16\\ulnone c}
+\\par\\pard\\sl-240\\slmult1\\li0\\fi0\\ri0\\sa0\\sb0\\s-1\\cfpat0\\cbpat0{\\fs16\\ulnone F}{\\fs16\\ulnone i}{\\fs16\\ulnone l}{\\fs16\\ulnone e}{\\fs16\\ulnone  }{\\fs16\\ulnone d}{\\fs16\\ulnone e}{\\fs16\\ulnone s}{\\fs16\\ulnone c}{\\fs16\\ulnone r}{\\fs16\\ulnone i}{\\fs16\\ulnone p}{\\fs16\\ulnone t}{\\fs16\\ulnone i}{\\fs16\\ulnone o}{\\fs16\\ulnone n}{\\fs16\\ulnone :}{\\fs16\\ulnone  }{\\fs16\\ulnone M}{\\fs16\\ulnone a}{\\fs16\\ulnone i}{\\fs16\\ulnone n}{\\fs16\\ulnone  }{\\fs16\\ulnone f}{\\fs16\\ulnone i}{\\fs16\\ulnone l}{\\fs16\\ulnone e}{\\fs16\\ulnone  }{\\fs16\\ulnone f}{\\fs16\\ulnone o}{\\fs16\\ulnone r}{\\fs16\\ulnone  }{\\fs16\\ulnone t
+}{\\fs16\\ulnone h}{\\fs16\\ulnone e}{\\fs16\\ulnone  }{\\fs16\\ulnone E}{\\fs16\\ulnone S}{\\fs16\\ulnone 6}{\\fs16\\ulnone 7}{\\fs16\\ulnone 0}{\\fs16\\ulnone  }{\\fs16\\ulnone P}{\\fs16\\ulnone r}{\\fs16\\ulnone a}{\\fs16\\ulnone c}{\\fs16\\ulnone t}{\\fs16\\ulnone i}{\\fs16\\ulnone c}{\\fs16\\ulnone a}{\\fs16\\ulnone l}{\\fs16\\ulnone  }{\\fs16\\ulnone P}{\\fs16\\ulnone r}{\\fs16\\ulnone o}{\\fs16\\ulnone j}{\\fs16\\ulnone e}{\\fs16\\ulnone c}{\\fs16\\ulnone t}
+\\par\\pard\\sl-240\\slmult1\\li0\\fi0\\ri0\\sa0\\sb0\\s-1\\cfpat0\\cbpat0{\\fs16\\ulnone A}{\\fs16\\ulnone u}{\\fs16\\ulnone t}{\\fs16\\ulnone h}{\\fs16\\ulnone o}{\\fs16\\ulnone r}{\\fs16\\ulnone  }{\\fs16\\ulnone n}{\\fs16\\ulnone a}{\\fs16\\ulnone m}{\\fs16\\ulnone e}{\\fs16\\ulnone :}{\\fs16\\ulnone       }{\\fs16\\ulnone d}{\\fs16\\ulnone l}{\\fs16\\ulnone o}{\\fs16\\ulnone u}{\\fs16\\ulnone b}{\\fs16\\ulnone a}{\\fs16\\ulnone c}{\\fs16\\ulnone h}
+\\par\\pard\\sl-240\\slmult1\\li0\\fi0\\ri0\\sa0\\sb0\\s-1\\cfpat0\\cbpat0{\\fs16\\ulnone C}{\\fs16\\ulnone r}{\\fs16\\ulnone e}{\\fs16\\ulnone a}{\\fs16\\ulnone t}{\\fs16\\ulnone i}{\\fs16\\ulnone o}{\\fs16\\ulnone n}{\\fs16\\ulnone  }{\\fs16\\ulnone d}{\\fs16\\ulnone a}{\\fs16\\ulnone t}{\\fs16\\ulnone e}{\\fs16\\ulnone :}{\\fs16\\ulnone     }{\\fs16\\ulnone 2}{\\fs16\\ulnone 0}{\\fs16\\ulnone j}{\\fs16\\ulnone a}{\\fs16\\ulnone n}{\\fs16\\ulnone 2}{\\fs16\\ulnone 0}{\\fs16\\ulnone 1}{\\fs16\\ulnone 5}
+\\par\\pard\\sl-240\\slmult1\\li0\\fi0\\ri0\\sa0\\sb0\\s-1\\cfpat0\\cbpat0{\\fs16\\ulnone R}{\\fs16\\ulnone e}{\\fs16\\ulnone v}{\\fs16\\ulnone i}{\\fs16\\ulnone s}{\\fs16\\ulnone i}{\\fs16\\ulnone o}{\\fs16\\ulnone n}{\\fs16\\ulnone  }{\\fs16\\ulnone d}{\\fs16\\ulnone a}{\\fs16\\ulnone t}{\\fs16\\ulnone e}{\\fs16\\ulnone :}{\\fs16\\ulnone     }{\\fs16\\ulnone 2}{\\fs16\\ulnone 0}{\\fs16\\ulnone j}{\\fs16\\ulnone a}{\\fs16\\ulnone n}{\\fs16\\ulnone 2}{\\fs16\\ulnone 0}{\\fs16\\ulnone 1}{\\fs16\\ulnone 5}
+\\par}";
+			}
+			- _lastID = 4;
+			- weakCGTime = 6.16.2016::23:3:19;
+			- strongCGTime = 4.13.2016::15:43:17;
+			- Operations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IPrimitiveOperation 
+					- _id = GUID 96ad7817-8150-4f17-ac8c-173f02ad5176;
+					- _myState = 8192;
+					- _name = "boardInit";
+					- _objectCreation = "341472116320162024904634";
+					- _umlDependencyID = "2506";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC++.sbs";
+						- _subsystem = "PredefinedTypesCpp";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID c6b70728-b655-45a0-abb7-8ea5d3da94be;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 26278d1f-734c-4aa3-8518-81c21ec1ac06;
+					- _myState = 8192;
+					- _name = "main";
+					- _objectCreation = "341472316320162024902634";
+					- _umlDependencyID = "2003";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC++.sbs";
+						- _subsystem = "PredefinedTypesCpp";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID c6b70728-b655-45a0-abb7-8ea5d3da94be;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _constant = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 11;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 18e5ea98-cbd6-408b-930f-9dd09b471885;
+					- _myState = 10240;
+					- _name = "itsLedswi_hal";
+					- _objectCreation = "341472516320162024900634";
+					- _umlDependencyID = "2938";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _filename = "LedSwi.sbs";
+						- _subsystem = "LedSwi";
+						- _class = "";
+						- _name = "ledswi_hal";
+						- _id = GUID c0445b4c-197d-4e5f-b22f-c3918af768b2;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 5dd7132f-b38d-474a-8785-c3020d8f6492;
+					- _myState = 10240;
+					- _name = "itsUtil";
+					- _objectCreation = "341472716320162024898634";
+					- _umlDependencyID = "2350";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _filename = "Util.sbs";
+						- _subsystem = "Util";
+						- _class = "";
+						- _name = "util";
+						- _id = GUID d00d39bc-27dd-42e5-87aa-b5bf491dbe5b;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 67033756-a20d-4713-92ed-8430dc464020;
+					- _myState = 10240;
+					- _name = "itsBuzzer_hal";
+					- _objectCreation = "341472916320162024896634";
+					- _umlDependencyID = "2982";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _filename = "Buzzer.sbs";
+						- _subsystem = "Buzzer";
+						- _class = "";
+						- _name = "buzzer_hal";
+						- _id = GUID 8c076f32-e54b-4c9f-8e0b-f6dc70637b69;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 8f7ee439-31c0-46c9-92e8-1d871229631b;
+					- _myState = 10240;
+					- _name = "itsSevenseg_hal";
+					- _objectCreation = "341473116320162024894634";
+					- _umlDependencyID = "3163";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _filename = "SevenSeg.sbs";
+						- _subsystem = "SevenSeg";
+						- _class = "";
+						- _name = "sevenseg_hal";
+						- _id = GUID d3ae0a03-e91c-4d6a-8e91-113b264b5ef8;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID cb2384cc-78ac-497e-a39e-d29f630dd14e;
+					- _myState = 10240;
+					- _name = "itsSerial_hal";
+					- _objectCreation = "341473316320162024892634";
+					- _umlDependencyID = "2939";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _filename = "Serial.sbs";
+						- _subsystem = "Serial";
+						- _class = "";
+						- _name = "serial_hal";
+						- _id = GUID c9803631-8374-420b-bdb0-4133b4715396;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 1e776854-d427-49e7-9474-e977d80ca372;
+					- _myState = 10240;
+					- _name = "itsCmdMachine_hal";
+					- _objectCreation = "341473516320162024890634";
+					- _umlDependencyID = "3300";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _filename = "Protocolo.sbs";
+						- _subsystem = "Protocolo";
+						- _class = "";
+						- _name = "cmdMachine_hal";
+						- _id = GUID 20aa6f75-4636-4373-95d9-02e6a6f8b98c;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 75c96068-9069-4d4c-8dc6-486a782e34ed;
+					- _myState = 10240;
+					- _name = "itsLcd_hal";
+					- _objectCreation = "341473716320162024888634";
+					- _umlDependencyID = "2615";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _filename = "LCD.sbs";
+						- _subsystem = "LCD";
+						- _class = "";
+						- _name = "lcd_hal";
+						- _id = GUID 1b89bb5f-a0ca-49e1-bcbd-ea3f4cd070a5;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 0d660392-a43a-4d58-b8f0-e6ee62a55ba8;
+					- _myState = 10240;
+					- _name = "itsCooler_hal";
+					- _objectCreation = "341473916320162024886634";
+					- _umlDependencyID = "2952";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _filename = "Cooler.sbs";
+						- _subsystem = "Cooler";
+						- _class = "";
+						- _name = "cooler_hal";
+						- _id = GUID af83b0f6-24bf-4380-8e53-e72128ef89ec;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 9df3d3f5-5173-48e8-8664-03033c76c763;
+					- _myState = 10240;
+					- _name = "itsTacometro_hal";
+					- _objectCreation = "341474116320162024884634";
+					- _umlDependencyID = "3273";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _filename = "Tacometro.sbs";
+						- _subsystem = "Tacometro";
+						- _class = "";
+						- _name = "tacometro_hal";
+						- _id = GUID cd5ebfc1-fae1-4c36-ac96-416d217b4818;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 9766de8a-936e-403d-a647-f89c5e4d7a9c;
+					- _myState = 10240;
+					- _name = "itsHeater_hal";
+					- _objectCreation = "341474316320162024882634";
+					- _umlDependencyID = "2932";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _filename = "Heater.sbs";
+						- _subsystem = "Heater";
+						- _class = "";
+						- _name = "heater_hal";
+						- _id = GUID a43cc280-95ae-40da-951e-441541c50551;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID e5b1bce1-a74b-43b3-a3a3-6dbabc0af283;
+					- _myState = 10240;
+					- _name = "itsTempSensor_hal";
+					- _objectCreation = "341474516320162024880634";
+					- _umlDependencyID = "3371";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _filename = "TempSensor.sbs";
+						- _subsystem = "TempSensor";
+						- _class = "";
+						- _name = "tempSensor_hal";
+						- _id = GUID a204c351-2ea7-4766-bea8-f62348dac27c;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.2.1990::0:0:0;
+}
+

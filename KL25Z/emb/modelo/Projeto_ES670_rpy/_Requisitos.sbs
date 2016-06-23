@@ -1,0 +1,132 @@
+I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
+{ ISubsystem 
+	- _id = GUID 83b232d5-cbf5-48de-bd01-d866eaf248e9;
+	- _myState = 8192;
+	- _name = "_Requisitos";
+	- _objectCreation = "221025413432016122585422";
+	- _umlDependencyID = "2749";
+	- Annotations = { IRPYRawContainer 
+		- size = 9;
+		- value = 
+		{ IRequirement 
+			- _id = GUID 166aaab7-cf5c-4481-a4d3-665ede382195;
+			- _name = "Requisito TECLADO";
+			- _objectCreation = "221025613432016122583422";
+			- _umlDependencyID = "3047";
+			- _body = "O sistema deve permitir o monitoramento de 4 chaves tipo \"push button\".";
+			- reqID = "REQ1A";
+		}
+		{ IRequirement 
+			- _id = GUID 14f38fe2-4ee6-4a1e-950b-e3f37eef0a0a;
+			- _name = "Requisito LCD";
+			- _objectCreation = "221025813432016122581422";
+			- _umlDependencyID = "2750";
+			- _body = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1046{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20 O sistema deve ser capaz de exiber mensagens alfanum\\'e9ricas num LCD.\\par
+}
+";
+			- reqID = "REQ3";
+		}
+		{ IRequirement 
+			- _id = GUID ac7c8af3-17dd-4d76-b0be-04c3795263c9;
+			- _name = "Requisito LED";
+			- _objectCreation = "221026013432016122579422";
+			- _umlDependencyID = "2752";
+			- _body = "O sistema deve ser capaz de acionar 4 LEDs.
+";
+			- reqID = "REQ1B";
+		}
+		{ IRequirement 
+			- _id = GUID f955129c-5a6e-4c50-b3c4-a546def9576e;
+			- _name = "Requisito PROTOCOLO";
+			- _objectCreation = "221026213432016122577422";
+			- _umlDependencyID = "3244";
+			- _body = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1046{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20 O sistema deve possuir um protocolo de comunica\\'e7\\'e3o serial capaz de receber comandos e retornar status dos perif\\'e9ricos do sistema.\\par
+}
+";
+			- reqID = "REQ2";
+		}
+		{ IRequirement 
+			- _id = GUID 0b53c1e4-b7fc-476c-8788-696ee3c1a74c;
+			- _name = "Requisito VELOCIDADE";
+			- _objectCreation = "221026413432016122575422";
+			- _umlDependencyID = "3259";
+			- _body = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1046{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20 O sistema deve ser capaz de realizar medi\\'e7\\'f5es de velocidade de rota\\'e7\\'e3o.\\par
+}
+";
+			- reqID = "REQ4";
+		}
+		{ IRequirement 
+			- _id = GUID eaa58628-4ade-4046-9928-56f257060a65;
+			- _name = "Requisito PWM";
+			- _objectCreation = "221026613432016122573422";
+			- _umlDependencyID = "2783";
+			- _body = "O sistema deve ser capaz de gerar um sinal de PWM.
+";
+			- reqID = "REQ5";
+		}
+		{ IRequirement 
+			- _id = GUID f230e846-fc6a-4648-bf73-e3e8f72330e2;
+			- _name = "Requisito ADC";
+			- _objectCreation = "221026813432016122571422";
+			- _umlDependencyID = "2739";
+			- _body = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20 O sistema deve ser capaz de realizar a leitura de sinal anal\\'f3gico e tamb\\'e9m a convers\\'e3o A/D deste sinal.\\par
+\\par
+}
+";
+			- reqID = "REQ6";
+		}
+		{ IRequirement 
+			- _id = GUID cdd89261-7335-4387-a028-44076154e2b1;
+			- _name = "Requisito CONTROLE";
+			- _objectCreation = "221027013432016122569422";
+			- _umlDependencyID = "3153";
+			- _body = "O sistema deve ser capaz de realizar a funcionalidade de controlador digital.";
+			- reqID = "REQ7";
+		}
+		{ IRequirement 
+			- _id = GUID a4b54609-cfab-4ccc-9983-191f2968bcf3;
+			- _name = "Requisito DISPLAY7SEG";
+			- _objectCreation = "221027213432016122567422";
+			- _umlDependencyID = "3351";
+			- _body = "O sistema deve ser capaz de acionar 4 displays de 7 segmentos.";
+			- reqID = "REQ1C";
+		}
+	}
+	- _theMainDiagram = { IHandle 
+		- _m2Class = "IDiagram";
+		- _filename = "";
+		- _subsystem = "";
+		- _class = "";
+		- _name = "diag_pacotes";
+		- _id = GUID 604328de-2202-48b3-9d1a-353bbeb75331;
+	}
+	- _lastID = 1;
+	- weakCGTime = 4.13.2016::15:43:22;
+	- strongCGTime = 1.22.2015::11:58:6;
+	- _defaultComposite = GUID 497533ce-60d4-494e-ab2c-d6b23d135320;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID 497533ce-60d4-494e-ab2c-d6b23d135320;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _objectCreation = "221027413432016122565422";
+			- _umlDependencyID = "2385";
+			- weakCGTime = 4.13.2016::15:29:5;
+			- strongCGTime = 1.22.2015::11:58:6;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.2.1990::0:0:0;
+}
+

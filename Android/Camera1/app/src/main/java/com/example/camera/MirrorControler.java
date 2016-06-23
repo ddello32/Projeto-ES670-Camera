@@ -13,31 +13,35 @@ public class MirrorControler {
 
     public void foundFace(Camera.Face face){
         if(face.rect.centerY() < -175 ){
-            angle--;
-            sendMvCmd(angle);
+            setAngle(angle--);
         }
         if(face.rect.centerY() > 175){
-            angle++;
-            sendMvCmd(angle);
+            setAngle(angle++);
+
         }
     }
 
     public void moveUp(){
-        angle++;
-        sendMvCmd(angle);
+        setAngle(angle++);
     }
 
     public void moveDown(){
-        angle--;
-        sendMvCmd(angle);
+        setAngle(angle--);
     }
 
     public void setAngle(int angle){
-        this.angle = angle;
+        if(angle < 0){
+            this.angle = 0;
+        }else if(angle > 180){
+            this.angle = 180;
+        }
+        else {
+            this.angle = angle;
+        }
         sendMvCmd(angle);
     }
 
     private void sendMvCmd(int angle){
-        comManager.usbWrite(String.format("P%d\r\n", angle));
+        comManager.usbWrite(String.format("M%d\n", angle));
     }
 }

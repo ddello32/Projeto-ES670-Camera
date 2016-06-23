@@ -1,0 +1,211 @@
+I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
+{ ISubsystem 
+	- _id = GUID f5d6f4c4-ca70-4386-9866-389eed46d9b7;
+	- _myState = 8192;
+	- _name = "Util";
+	- _objectCreation = "221027613432016122563422";
+	- _umlDependencyID = "1988";
+	- _theMainDiagram = { IHandle 
+		- _m2Class = "IDiagram";
+		- _filename = "";
+		- _subsystem = "";
+		- _class = "";
+		- _name = "diag_pacotes";
+		- _id = GUID 604328de-2202-48b3-9d1a-353bbeb75331;
+	}
+	- weakCGTime = 3.30.2016::14:0:10;
+	- strongCGTime = 1.22.2015::11:57:27;
+	- _defaultComposite = GUID 3dc3cece-0e6b-4ec5-b915-4d0f0e751e4f;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 2;
+		- value = 
+		{ IClass 
+			- _id = GUID 3dc3cece-0e6b-4ec5-b915-4d0f0e751e4f;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _objectCreation = "221027813432016122561422";
+			- _umlDependencyID = "2385";
+			- weakCGTime = 3.30.2016::14:0:10;
+			- strongCGTime = 1.22.2015::11:57:27;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID d00d39bc-27dd-42e5-87aa-b5bf491dbe5b;
+			- _myState = 8192;
+			- _name = "util";
+			- _objectCreation = "221028013432016122559422";
+			- _umlDependencyID = "2020";
+			- Dependencies = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IDependency 
+					- _id = GUID 947a2acf-c076-44d9-a62d-540dd1cd9c5b;
+					- _myState = 2048;
+					- _name = "es670_peripheral_board";
+					- _objectCreation = "221028213432016122557422";
+					- _umlDependencyID = "3725";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypes.sbs";
+							- _subsystem = "PredefinedTypes";
+							- _class = "";
+							- _name = "Usage";
+							- _id = GUID 42aa4325-6112-4e88-87ce-66008878f1db;
+						}
+					}
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _filename = "KL25Z.sbs";
+						- _subsystem = "KL25Z";
+						- _class = "";
+						- _name = "es670_peripheral_board";
+						- _id = GUID aa110bb3-0172-4266-a0b1-29e5f9f27d13;
+					}
+				}
+			}
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "PredefinedTypesC++.sbs";
+					- _subsystem = "PredefinedTypesCpp";
+					- _class = "";
+					- _name = "Subsystem";
+					- _id = GUID 4ea1c1da-7dc6-4a35-bc5a-313393e8408f;
+				}
+			}
+			- _description = { IDescription 
+				- _text = "File name:		 util.c
+File description: This file has a couple of useful functions to
+		 make programming more productive
+Author name:      dloubach
+Creation date:    09jan2015
+Revision date:    09jan2015
+";
+			}
+			- _lastID = 5;
+			- weakCGTime = 3.30.2016::14:0:10;
+			- strongCGTime = 1.22.2015::12:24:17;
+			- Operations = { IRPYRawContainer 
+				- size = 4;
+				- value = 
+				{ IPrimitiveOperation 
+					- _id = GUID 153be061-afed-4fea-b6d5-d9b9065886f1;
+					- _myState = 8192;
+					- _name = "genDelay088us";
+					- _objectCreation = "221028413432016122555422";
+					- _umlDependencyID = "2775";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC++.sbs";
+						- _subsystem = "PredefinedTypesCpp";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID c6b70728-b655-45a0-abb7-8ea5d3da94be;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 350ff3d5-d41e-4ccb-beb1-6e64d3334969;
+					- _myState = 8192;
+					- _name = "genDelay250us";
+					- _objectCreation = "221028613432016122553422";
+					- _umlDependencyID = "2766";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC++.sbs";
+						- _subsystem = "PredefinedTypesCpp";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID c6b70728-b655-45a0-abb7-8ea5d3da94be;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID ae534ce2-2a74-4e8b-be3f-07658458cc99;
+					- _myState = 8192;
+					- _name = "genDelay1ms";
+					- _objectCreation = "221028813432016122551422";
+					- _umlDependencyID = "2656";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC++.sbs";
+						- _subsystem = "PredefinedTypesCpp";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID c6b70728-b655-45a0-abb7-8ea5d3da94be;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 9ac8cefe-7f1e-4aa1-b492-663c702058a4;
+					- _myState = 8192;
+					- _name = "genDelay10ms";
+					- _objectCreation = "221029013432016122549422";
+					- _umlDependencyID = "2704";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC++.sbs";
+						- _subsystem = "PredefinedTypesCpp";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID c6b70728-b655-45a0-abb7-8ea5d3da94be;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.2.1990::0:0:0;
+}
+

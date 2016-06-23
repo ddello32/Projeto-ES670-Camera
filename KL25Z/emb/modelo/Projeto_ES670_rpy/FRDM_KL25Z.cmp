@@ -1,0 +1,202 @@
+I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
+{ IComponent 
+	- _id = GUID 97403057-80a5-4323-8421-7b4a31e27ebf;
+	- _myState = 139264;
+	- _name = "FRDM_KL25Z";
+	- _objectCreation = "221051613432016122323422";
+	- _umlDependencyID = "2301";
+	- m_buildType = Executable;
+	- m_libraries = "";
+	- m_additionalSources = "";
+	- m_standardHeaders = "";
+	- m_includePath = "";
+	- m_initializationCode = "";
+	- m_folder = { IFolder 
+		- _id = GUID cd030cca-69ce-42c3-b700-0f0a5efcf93f;
+		- _myState = 73728;
+		- _name = "Files";
+		- _objectCreation = "221051813432016122321422";
+		- _umlDependencyID = "2064";
+		- m_path = "";
+		- Elements = { IRPYRawContainer 
+			- size = 0;
+		}
+		- Files = { IRPYRawContainer 
+			- size = 0;
+		}
+	}
+	- m_configActive = { ICodeGenConfigInfoHandle 
+		- _m2Class = "ICodeGenConfigInfo";
+		- _id = GUID 9c6beb6d-ead1-40f7-91ed-bc17ed49e6a3;
+	}
+	- Configs = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ ICodeGenConfigInfo 
+			- _id = GUID 9c6beb6d-ead1-40f7-91ed-bc17ed49e6a3;
+			- _myState = 8192;
+			- _name = "DefaultConfig";
+			- _objectCreation = "221052013432016122319422";
+			- _umlDependencyID = "2872";
+			- HyperLinks = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IMHyperLink 
+					- _id = GUID f459b1e9-805e-423c-ac12-317e0cda3b3c;
+					- _objectCreation = "221052213432016122317422";
+					- _umlDependencyID = "1565";
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Makefile";
+					- _linkType = "FREE";
+					- _linkTarget = "L:\\_Ensino\\es670_2016\\semana 04\\modelo\\MCLAB2\\DefaultConfig\\MCLAB2.mak";
+					- isConfigurationFileHyperLink = 1;
+				}
+				{ IMHyperLink 
+					- _id = GUID 6ebd9e51-dda0-46e7-ab71-e9ba4fd5660c;
+					- _objectCreation = "221052413432016122315422";
+					- _umlDependencyID = "1565";
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Main File";
+					- _linkType = "FREE";
+					- _linkTarget = "L:\\_Ensino\\es670_2016\\semana 04\\modelo\\MCLAB2\\DefaultConfig\\MainMCLAB2";
+					- isConfigurationFileHyperLink = 1;
+				}
+			}
+			- _scopeType = Explicit;
+			- _libraries = "";
+			- _additionalSources = "";
+			- _standardHeaders = "";
+			- _includePath = "";
+			- _targetMain = "";
+			- _instrumentation = None;
+			- _timeModel = RealTime;
+			- m_generateActors = 1;
+			- _statechartImplementation = Flat;
+			- _initializationCode = "";
+			- _checksList = 0 ;
+			- ScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- InitialInstances = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _root = { IFolder 
+				- _id = GUID 8b47ce15-d669-4f00-8cb5-d262567c6650;
+				- _myState = 8192;
+				- _name = "DefaultConfig";
+				- _objectCreation = "221052613432016122313422";
+				- _umlDependencyID = "2872";
+				- m_path = "";
+				- Elements = { IRPYRawContainer 
+					- size = 0;
+				}
+				- Files = { IRPYRawContainer 
+					- size = 0;
+				}
+			}
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- AnimScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- m_allInAnimScope = 1;
+		}
+	}
+	- HandlesInMe = { IRPYRawContainer 
+		- size = 10;
+		- value = 
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "_Projeto_Pratico.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "_Projeto_Pratico";
+			- _id = GUID 20246198-4c47-4bfe-9397-a7aa14ffd20f;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "_Requisitos.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "_Requisitos";
+			- _id = GUID 83b232d5-cbf5-48de-bd01-d866eaf248e9;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Util.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "Util";
+			- _id = GUID f5d6f4c4-ca70-4386-9866-389eed46d9b7;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "KL25Z.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "KL25Z";
+			- _id = GUID 9ac6e8be-1171-4050-a109-3666f2506e5d;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "LedSwi.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "LedSwi";
+			- _id = GUID 065e8ea8-3104-4865-9f03-c833c5c57170;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Main.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "Main";
+			- _id = GUID a9bfd00a-eefd-40b0-8807-d7abb8ac9870;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Buzzer.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "Buzzer";
+			- _id = GUID f7399950-29d6-4418-ab30-4039fe4c2874;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "GPIO.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "GPIO";
+			- _id = GUID cecafbf0-ffbd-4124-8cae-f06a2917ce91;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "PIT.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "PIT";
+			- _id = GUID 83818f05-7053-49e7-ae2f-96b665be83da;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "SevenSeg.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "SevenSeg";
+			- _id = GUID e536725c-fa59-4de6-a2b0-d993b44d2f45;
+		}
+	}
+	- VariationPoints = { IRPYRawContainer 
+		- size = 0;
+	}
+	- SelectedVariants = { IRPYRawContainer 
+		- size = 0;
+	}
+	- weakCGTime = 3.30.2016::13:57:10;
+	- strongCGTime = 3.30.2016::13:57:10;
+}
+

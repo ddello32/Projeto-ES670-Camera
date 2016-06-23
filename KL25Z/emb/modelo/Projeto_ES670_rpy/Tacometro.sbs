@@ -1,0 +1,170 @@
+I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
+{ ISubsystem 
+	- _id = GUID 1ab6553b-0084-405b-a240-df1fa429b755;
+	- _myState = 8192;
+	- _name = "Tacometro";
+	- _objectCreation = "4419268165420161923603644";
+	- _umlDependencyID = "2594";
+	- _theMainDiagram = { IHandle 
+		- _m2Class = "IDiagram";
+		- _filename = "";
+		- _subsystem = "";
+		- _class = "";
+		- _name = "diag_pacotes";
+		- _id = GUID 604328de-2202-48b3-9d1a-353bbeb75331;
+	}
+	- _lastID = 1;
+	- weakCGTime = 6.16.2016::22:54:30;
+	- strongCGTime = 5.14.2016::0:52:42;
+	- _defaultComposite = GUID 96419187-c241-45b2-a852-e5de9cc773cb;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 2;
+		- value = 
+		{ IClass 
+			- _id = GUID 96419187-c241-45b2-a852-e5de9cc773cb;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _objectCreation = "4419270165420161923601644";
+			- _umlDependencyID = "2454";
+			- weakCGTime = 6.10.2016::12:32:17;
+			- strongCGTime = 5.14.2016::0:52:42;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID cd5ebfc1-fae1-4c36-ac96-416d217b4818;
+			- _myState = 8192;
+			- _name = "tacometro_hal";
+			- _objectCreation = "4419272165420161923599644";
+			- _umlDependencyID = "3039";
+			- Dependencies = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IDependency 
+					- _id = GUID 7d80e4a0-95e1-4d05-b765-413345278ea5;
+					- _myState = 2048;
+					- _name = "es670_peripheral_board";
+					- _objectCreation = "4419274165420161923597644";
+					- _umlDependencyID = "3812";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypes.sbs";
+							- _subsystem = "PredefinedTypes";
+							- _class = "";
+							- _name = "Usage";
+							- _id = GUID 42aa4325-6112-4e88-87ce-66008878f1db;
+						}
+					}
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _filename = "KL25Z.sbs";
+						- _subsystem = "KL25Z";
+						- _class = "";
+						- _name = "es670_peripheral_board";
+						- _id = GUID aa110bb3-0172-4266-a0b1-29e5f9f27d13;
+					}
+				}
+			}
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "diag_definicao_semana_04_05";
+				- _id = GUID f53d507c-79b1-4f7f-850a-0c96a124e9bd;
+			}
+			- _lastID = 3;
+			- weakCGTime = 6.16.2016::22:54:30;
+			- strongCGTime = 5.14.2016::0:52:52;
+			- Operations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IPrimitiveOperation 
+					- _id = GUID e2ccd1a9-86c3-4759-910f-d4ee8ad097fc;
+					- _myState = 8192;
+					- _name = "init";
+					- _objectCreation = "4419276165420161923595644";
+					- _umlDependencyID = "2097";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC++.sbs";
+						- _subsystem = "PredefinedTypesCpp";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID c6b70728-b655-45a0-abb7-8ea5d3da94be;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 9e1d18bc-b3a0-44ed-9b32-df1472e70866;
+					- _myState = 8192;
+					- _name = "getSpeed";
+					- _objectCreation = "4419278165420161923593644";
+					- _umlDependencyID = "2478";
+					- _lastID = 1;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IArgument 
+							- _id = GUID e98f174f-15d8-48b6-80f0-8dd8047b409d;
+							- _name = "uiPeriod";
+							- _objectCreation = "4419280165420161923591644";
+							- _umlDependencyID = "2485";
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _filename = "PredefinedTypesC++.sbs";
+								- _subsystem = "PredefinedTypesCpp";
+								- _class = "";
+								- _name = "unsigned int";
+								- _id = GUID 7688bde5-e3a0-4b4d-bcd7-cbfa35c3b811;
+							}
+							- _isOrdered = 0;
+							- _argumentDirection = In;
+						}
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC++.sbs";
+						- _subsystem = "PredefinedTypesCpp";
+						- _class = "";
+						- _name = "unsigned int";
+						- _id = GUID 7688bde5-e3a0-4b4d-bcd7-cbfa35c3b811;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.2.1990::0:0:0;
+}
+

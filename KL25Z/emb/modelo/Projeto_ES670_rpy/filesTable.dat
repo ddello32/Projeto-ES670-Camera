@@ -1,0 +1,28 @@
+I-Logix-RPY-Archive version 8.5.2 Modeler * 1159120
+
+- filesTable = { IRPYRawContainer 
+	- size = 21;
+	- value = "Projects.rpl" ""
+	"Projeto_ES670.rpy" ""
+	"Projeto_ES670_rpy\\ADC.sbs" "ADC"
+	"Projeto_ES670_rpy\\Buzzer.sbs" "Buzzer"
+	"Projeto_ES670_rpy\\Cooler.sbs" "Cooler"
+	"Projeto_ES670_rpy\\FRDM_KL25Z.cmp" "FRDM_KL25Z"
+	"Projeto_ES670_rpy\\GPIO.sbs" "GPIO"
+	"Projeto_ES670_rpy\\Heater.sbs" "Heater"
+	"Projeto_ES670_rpy\\KL25Z.sbs" "KL25Z"
+	"Projeto_ES670_rpy\\LCD.sbs" "LCD"
+	"Projeto_ES670_rpy\\LedSwi.sbs" "LedSwi"
+	"Projeto_ES670_rpy\\Main.sbs" "Main"
+	"Projeto_ES670_rpy\\PIT.sbs" "PIT"
+	"Projeto_ES670_rpy\\Protocolo.sbs" "Protocolo"
+	"Projeto_ES670_rpy\\Serial.sbs" "Serial"
+	"Projeto_ES670_rpy\\SevenSeg.sbs" "SevenSeg"
+	"Projeto_ES670_rpy\\Tacometro.sbs" "Tacometro"
+	"Projeto_ES670_rpy\\TempSensor.sbs" "TempSensor"
+	"Projeto_ES670_rpy\\Util.sbs" "Util"
+	"Projeto_ES670_rpy\\_Projeto_Pratico.sbs" "_Projeto_Pratico"
+	"Projeto_ES670_rpy\\_Requisitos.sbs" "_Requisitos"
+	
+}
+

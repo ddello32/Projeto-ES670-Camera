@@ -1,0 +1,114 @@
+I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
+{ ISubsystem 
+	- _id = GUID 9ac6e8be-1171-4050-a109-3666f2506e5d;
+	- _myState = 8192;
+	- _name = "McLab2";
+	- _objectCreation = "262190221172016181168126";
+	- _umlDependencyID = "2080";
+	- _theMainDiagram = { IHandle 
+		- _m2Class = "IDiagram";
+		- _filename = "";
+		- _subsystem = "";
+		- _class = "";
+		- _name = "diag_pacotes";
+		- _id = GUID 604328de-2202-48b3-9d1a-353bbeb75331;
+	}
+	- weakCGTime = 1.21.2016::20:17:25;
+	- strongCGTime = 1.22.2015::11:57:58;
+	- _defaultComposite = GUID ce31462b-e9d0-49e2-a8ce-3d17e977befb;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 2;
+		- value = 
+		{ IClass 
+			- _id = GUID ce31462b-e9d0-49e2-a8ce-3d17e977befb;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _objectCreation = "262190421172016181166126";
+			- _umlDependencyID = "2394";
+			- weakCGTime = 1.22.2015::12:56:44;
+			- strongCGTime = 1.22.2015::11:57:58;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID aa110bb3-0172-4266-a0b1-29e5f9f27d13;
+			- _myState = 8192;
+			- _name = "es670_peripheral_board";
+			- _objectCreation = "262190621172016181164126";
+			- _umlDependencyID = "3734";
+			- Dependencies = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IDependency 
+					- _id = GUID 65e97bfc-98fc-4097-a796-5aecc62912e4;
+					- _myState = 2048;
+					- _name = "MKL25Z4";
+					- _objectCreation = "262190821172016181162126";
+					- _umlDependencyID = "2056";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypes.sbs";
+							- _subsystem = "PredefinedTypes";
+							- _class = "";
+							- _name = "Usage";
+							- _id = GUID 42aa4325-6112-4e88-87ce-66008878f1db;
+						}
+					}
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _filename = "_Projeto_Pratico.sbs";
+						- _subsystem = "_Projeto_Pratico";
+						- _class = "";
+						- _name = "MKL25Z4";
+						- _id = GUID d32248dd-74d9-479b-b8a9-cc8ac7ccc303;
+					}
+				}
+			}
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "_Projeto_Pratico.sbs";
+					- _subsystem = "_Projeto_Pratico";
+					- _class = "";
+					- _name = "File";
+					- _id = GUID bdee0ab5-d5a0-4569-8f02-ac8f107b96c3;
+				}
+			}
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "diag_definicao_blocos";
+				- _id = GUID a21c9f5f-35bf-494c-a903-3394cfe63ffe;
+			}
+			- _description = { IDescription 
+				- _text = "File name:		 mclab2.h
+File description: Header file containing the peripherals mapping of the target development kit MCLAB2 V5.0
+Author name:      dloubach
+Creation date:    09jan2015
+Revision date:    09jan2015
+";
+			}
+			- _lastID = 1;
+			- weakCGTime = 1.21.2016::20:17:25;
+			- strongCGTime = 1.21.2016::20:17:25;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.2.1990::0:0:0;
+}
+

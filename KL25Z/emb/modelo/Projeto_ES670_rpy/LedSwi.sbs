@@ -1,0 +1,471 @@
+I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
+{ ISubsystem 
+	- _id = GUID 065e8ea8-3104-4865-9f03-c833c5c57170;
+	- _myState = 8192;
+	- _name = "LedSwi";
+	- _objectCreation = "2134045420161813960521";
+	- _umlDependencyID = "2063";
+	- _theMainDiagram = { IHandle 
+		- _m2Class = "IDiagram";
+		- _filename = "";
+		- _subsystem = "";
+		- _class = "";
+		- _name = "diag_pacotes";
+		- _id = GUID 604328de-2202-48b3-9d1a-353bbeb75331;
+	}
+	- _lastID = 3;
+	- weakCGTime = 5.5.2016::21:3:25;
+	- strongCGTime = 1.22.2015::11:58:19;
+	- _defaultComposite = GUID a82ba236-7531-4d48-8a36-876a6432314f;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 2;
+		- value = 
+		{ IClass 
+			- _id = GUID a82ba236-7531-4d48-8a36-876a6432314f;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _objectCreation = "2134065420161813958521";
+			- _umlDependencyID = "2299";
+			- weakCGTime = 4.10.2016::23:40:59;
+			- strongCGTime = 1.22.2015::11:58:19;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID c0445b4c-197d-4e5f-b22f-c3918af768b2;
+			- _myState = 8192;
+			- _name = "ledswi_hal";
+			- _objectCreation = "2134085420161813956521";
+			- _umlDependencyID = "2540";
+			- Dependencies = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IDependency 
+					- _id = GUID 81db235c-dc5c-49ca-a5de-e6efb160d63c;
+					- _myState = 2048;
+					- _name = "es670_peripheral_board";
+					- _objectCreation = "2134105420161813954521";
+					- _umlDependencyID = "3630";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypes.sbs";
+							- _subsystem = "PredefinedTypes";
+							- _class = "";
+							- _name = "Usage";
+							- _id = GUID 42aa4325-6112-4e88-87ce-66008878f1db;
+						}
+					}
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _filename = "KL25Z.sbs";
+						- _subsystem = "KL25Z";
+						- _class = "";
+						- _name = "es670_peripheral_board";
+						- _id = GUID aa110bb3-0172-4266-a0b1-29e5f9f27d13;
+					}
+				}
+			}
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "PredefinedTypesC++.sbs";
+					- _subsystem = "PredefinedTypesCpp";
+					- _class = "";
+					- _name = "Subsystem";
+					- _id = GUID 4ea1c1da-7dc6-4a35-bc5a-313393e8408f;
+				}
+			}
+			- _description = { IDescription 
+				- _text = "File name:		 ledswi.c
+File description: This file has a couple of useful functions to control LEDs and Switches from MCLAB2 dev kit  */
+Author name:      dloubach
+Creation date:    20jan2015
+Revision date:    20jan2015
+";
+			}
+			- _lastID = 9;
+			- weakCGTime = 5.5.2016::21:4:4;
+			- strongCGTime = 1.21.2016::20:23:35;
+			- Operations = { IRPYRawContainer 
+				- size = 7;
+				- value = 
+				{ IPrimitiveOperation 
+					- _id = GUID 4099a6e6-63e0-4f1d-8684-a0c1721afc00;
+					- _myState = 8192;
+					- _name = "initLedSwitch";
+					- _objectCreation = "2134125420161813952521";
+					- _umlDependencyID = "2818";
+					- _lastID = 2;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IArgument 
+							- _id = GUID fa5fbef4-895e-454f-a13c-ff59d1d2c13b;
+							- _name = "cLedNum";
+							- _objectCreation = "2134145420161813950521";
+							- _umlDependencyID = "2159";
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _filename = "PredefinedTypesC++.sbs";
+								- _subsystem = "PredefinedTypesCpp";
+								- _class = "";
+								- _name = "char";
+								- _id = GUID 717461b3-278b-47c8-9526-c62c7be55b14;
+							}
+							- _isOrdered = 0;
+							- _argumentDirection = In;
+						}
+						{ IArgument 
+							- _id = GUID 927ae639-940b-47e5-b8b5-f4438e5b1836;
+							- _name = "cSwitchNum";
+							- _objectCreation = "2134165420161813948521";
+							- _umlDependencyID = "2517";
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _filename = "PredefinedTypesC++.sbs";
+								- _subsystem = "PredefinedTypesCpp";
+								- _class = "";
+								- _name = "char";
+								- _id = GUID 717461b3-278b-47c8-9526-c62c7be55b14;
+							}
+							- _isOrdered = 0;
+							- _argumentDirection = In;
+						}
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC++.sbs";
+						- _subsystem = "PredefinedTypesCpp";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID c6b70728-b655-45a0-abb7-8ea5d3da94be;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID e5bc592b-4ecc-49e1-b438-0b774c7c9304;
+					- _myState = 8192;
+					- _name = "setLed";
+					- _objectCreation = "2134185420161813946521";
+					- _umlDependencyID = "2097";
+					- _lastID = 1;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IArgument 
+							- _id = GUID f7f7cbae-b85f-4a24-bb8b-646f56bda7a6;
+							- _name = "eLedPin";
+							- _objectCreation = "2134205420161813944521";
+							- _umlDependencyID = "2152";
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _id = GUID 683a125e-3185-45ae-9964-c78f04b4709c;
+							}
+							- _isOrdered = 0;
+							- _argumentDirection = In;
+						}
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC++.sbs";
+						- _subsystem = "PredefinedTypesCpp";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID c6b70728-b655-45a0-abb7-8ea5d3da94be;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 5acfbab4-706e-474d-8889-4c6f3302ffcc;
+					- _myState = 8192;
+					- _name = "clearLed";
+					- _objectCreation = "2134225420161813942521";
+					- _umlDependencyID = "2275";
+					- _lastID = 1;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IArgument 
+							- _id = GUID a73f4b6c-a3f4-403e-be92-7f280869e58e;
+							- _name = "eLedPin";
+							- _objectCreation = "2134245420161813940521";
+							- _umlDependencyID = "2152";
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _id = GUID 683a125e-3185-45ae-9964-c78f04b4709c;
+							}
+							- _isOrdered = 0;
+							- _argumentDirection = In;
+						}
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC++.sbs";
+						- _subsystem = "PredefinedTypesCpp";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID c6b70728-b655-45a0-abb7-8ea5d3da94be;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID a32c770b-17a9-4e1e-a689-3b534e3aa42b;
+					- _myState = 8192;
+					- _name = "getSwitchStatus";
+					- _objectCreation = "2134265420161813938521";
+					- _umlDependencyID = "3078";
+					- _lastID = 1;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IArgument 
+							- _id = GUID 56ac20e1-ed30-4afa-b048-8c464e10cf14;
+							- _name = "eSwPin";
+							- _objectCreation = "2134285420161813936521";
+							- _umlDependencyID = "2086";
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _id = GUID 683a125e-3185-45ae-9964-c78f04b4709c;
+							}
+							- _isOrdered = 0;
+							- _argumentDirection = In;
+						}
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _id = GUID 900691e8-03e8-440d-8c8b-50515f246b95;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 68cab6d4-6259-4070-93fd-2cac0c711cc8;
+					- _myState = 8192;
+					- _name = "initLed";
+					- _objectCreation = "2134305420161813934521";
+					- _umlDependencyID = "2192";
+					- _lastID = 1;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IArgument 
+							- _id = GUID 7acd8911-8d8b-42c4-8f88-d7ee182bf06e;
+							- _name = "ePin";
+							- _objectCreation = "2134325420161813932521";
+							- _umlDependencyID = "1875";
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _id = GUID 900691e8-03e8-440d-8c8b-50515f246b95;
+							}
+							- _isOrdered = 0;
+							- _argumentDirection = In;
+						}
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC++.sbs";
+						- _subsystem = "PredefinedTypesCpp";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID c6b70728-b655-45a0-abb7-8ea5d3da94be;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 195d74bb-935f-4819-b6d4-12ff1cc48d2f;
+					- _myState = 8192;
+					- _name = "initSwitch";
+					- _objectCreation = "2134345420161813930521";
+					- _umlDependencyID = "2541";
+					- _lastID = 1;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IArgument 
+							- _id = GUID 77019584-dfee-40fb-9bf5-b2a79db66e0c;
+							- _name = "ePin";
+							- _objectCreation = "2134365420161813928521";
+							- _umlDependencyID = "1884";
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _id = GUID 683a125e-3185-45ae-9964-c78f04b4709c;
+							}
+							- _isOrdered = 0;
+							- _argumentDirection = In;
+						}
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC++.sbs";
+						- _subsystem = "PredefinedTypesCpp";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID c6b70728-b655-45a0-abb7-8ea5d3da94be;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 7e744911-0947-4bf2-a469-27e144fc5154;
+					- _myState = 8192;
+					- _name = "getLedStatus";
+					- _objectCreation = "2134385420161813926521";
+					- _umlDependencyID = "2729";
+					- _lastID = 1;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IArgument 
+							- _id = GUID c8389662-6664-4303-80ba-41e3f580f1d1;
+							- _name = "eLedPin";
+							- _objectCreation = "2134405420161813924521";
+							- _umlDependencyID = "2152";
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _id = GUID 683a125e-3185-45ae-9964-c78f04b4709c;
+							}
+							- _isOrdered = 0;
+							- _argumentDirection = In;
+						}
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _id = GUID 612d7cbd-9770-4328-bb7c-deb276b78942;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+			}
+			- Attrs = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAttribute 
+					- _id = GUID 1afbce5c-41cd-47e7-bb33-c2951cd736d0;
+					- _name = "MAX_LED_SWI";
+					- _objectCreation = "2134425420161813922521";
+					- _umlDependencyID = "2355";
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID a68fa3cf-f566-49fd-bcf1-97b749b0e4d9;
+							- _objectCreation = "2134445420161813920521";
+							- _umlDependencyID = "1479";
+							- _value = "04";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC++.sbs";
+						- _subsystem = "PredefinedTypesCpp";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 6024c6ab-fe9e-402e-954f-27aca6d3b5e4;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- Types = { IRPYRawContainer 
+		- size = 3;
+		- value = 
+		{ IType 
+			- _id = GUID 900691e8-03e8-440d-8c8b-50515f246b95;
+			- _myState = 8192;
+			- _name = "switch_status_type_e";
+			- _objectCreation = "2134465420161813918521";
+			- _umlDependencyID = "3658";
+			- _description = { IDescription 
+				- _text = "typedef enum
+{
+	SWITCH_ON,
+	SWITCH_OFF
+} switch_status_type_e;";
+			}
+			- _typedefBaseType = { IClassifierHandle 
+				- _m2Class = "";
+			}
+			- _typedefMultiplicity = "1";
+			- _typedefIsOrdered = 0;
+			- _typedefIsReference = 0;
+			- _typedefIsConstant = 0;
+			- _kind = Typedef;
+		}
+		{ IType 
+			- _id = GUID 683a125e-3185-45ae-9964-c78f04b4709c;
+			- _myState = 8192;
+			- _name = "ledswi_pin_type_e";
+			- _objectCreation = "2134485420161813916521";
+			- _umlDependencyID = "3299";
+			- _kind = Enumeration;
+		}
+		{ IType 
+			- _id = GUID 612d7cbd-9770-4328-bb7c-deb276b78942;
+			- _myState = 8192;
+			- _name = "led_status_type_e";
+			- _objectCreation = "2134505420161813914521";
+			- _umlDependencyID = "3300";
+			- _kind = Enumeration;
+		}
+	}
+	- _configurationRelatedTime = 1.2.1990::0:0:0;
+}
+

@@ -1,0 +1,116 @@
+I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
+{ ISubsystem 
+	- _id = GUID 83b232d5-cbf5-48de-bd01-d866eaf248e9;
+	- _myState = 8192;
+	- _name = "Requisitos";
+	- _objectCreation = "338396152820151517969133";
+	- _umlDependencyID = "2688";
+	- Annotations = { IRPYRawContainer 
+		- size = 8;
+		- value = 
+		{ IRequirement 
+			- _id = GUID 166aaab7-cf5c-4481-a4d3-665ede382195;
+			- _name = "Requisito TECLADO";
+			- _objectCreation = "338398152820151517967133";
+			- _umlDependencyID = "3081";
+			- _body = "O sistema deve permitir o monitoramento de 4 chaves tipo \"push button\".";
+			- reqID = "REQ1A";
+		}
+		{ IRequirement 
+			- _id = GUID 14f38fe2-4ee6-4a1e-950b-e3f37eef0a0a;
+			- _name = "Requisito LCD";
+			- _objectCreation = "338400152820151517965133";
+			- _umlDependencyID = "2766";
+			- _body = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1046{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20 O sistema deve ser capaz de exiber mensagens alfanum\\'e9ricas num LCD.\\par
+}
+";
+			- reqID = "REQ3";
+		}
+		{ IRequirement 
+			- _id = GUID ac7c8af3-17dd-4d76-b0be-04c3795263c9;
+			- _name = "Requisito LED";
+			- _objectCreation = "338402152820151517963133";
+			- _umlDependencyID = "2768";
+			- _body = "O sistema deve ser capaz de acionar 4 LEDs.
+";
+			- reqID = "REQ1B";
+		}
+		{ IRequirement 
+			- _id = GUID f955129c-5a6e-4c50-b3c4-a546def9576e;
+			- _name = "Requisito PROTOCOLO";
+			- _objectCreation = "338404152820151517961133";
+			- _umlDependencyID = "3260";
+			- _body = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1046{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20 O sistema deve possuir um protocolo de comunica\\'e7\\'e3o serial capaz de receber comandos e retornar status dos perif\\'e9ricos do sistema.\\par
+}
+";
+			- reqID = "REQ2";
+		}
+		{ IRequirement 
+			- _id = GUID 0b53c1e4-b7fc-476c-8788-696ee3c1a74c;
+			- _name = "Requisito VELOCIDADE";
+			- _objectCreation = "338406152820151517959133";
+			- _umlDependencyID = "3284";
+			- _body = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1046{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20 O sistema deve ser capaz de realizar medi\\'e7\\'f5es de velocidade de rota\\'e7\\'e3o.\\par
+}
+";
+			- reqID = "REQ4";
+		}
+		{ IRequirement 
+			- _id = GUID eaa58628-4ade-4046-9928-56f257060a65;
+			- _name = "Requisito PWM";
+			- _objectCreation = "338408152820151517957133";
+			- _umlDependencyID = "2808";
+			- _body = "O sistema deve ser capaz de gerar um sinal de PWM.
+";
+			- reqID = "REQ5";
+		}
+		{ IRequirement 
+			- _id = GUID f230e846-fc6a-4648-bf73-e3e8f72330e2;
+			- _name = "Requisito ADC";
+			- _objectCreation = "338410152820151517955133";
+			- _umlDependencyID = "2755";
+			- _body = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1046{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20 O sistema deve ser capaz de realizar a leitura de sinal an\\'e1lico e tamb\\'e9m a convers\\'e3o A/D deste sinal.\\par
+\\par
+}
+";
+			- reqID = "REQ6";
+		}
+		{ IRequirement 
+			- _id = GUID cdd89261-7335-4387-a028-44076154e2b1;
+			- _name = "Requisito CONTROLE";
+			- _objectCreation = "338412152820151517953133";
+			- _umlDependencyID = "3169";
+			- _body = "O sistema deve ser capaz de realizar a funcionalidade de controlador digital.";
+			- reqID = "REQ7";
+		}
+	}
+	- _lastID = 1;
+	- weakCGTime = 1.15.2015::17:28:33;
+	- strongCGTime = 1.15.2015::17:28:31;
+	- _defaultComposite = GUID 497533ce-60d4-494e-ab2c-d6b23d135320;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID 497533ce-60d4-494e-ab2c-d6b23d135320;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _objectCreation = "338414152820151517951133";
+			- _umlDependencyID = "2401";
+			- weakCGTime = 12.31.1969::22:0:0;
+			- strongCGTime = 12.31.1969::22:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 12.31.1969::22:0:0;
+}
+

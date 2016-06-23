@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.2144293917/PATH/delimiter=\:
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.2144293917/PATH/operation=replace
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.2144293917/PATH/value=/opt/Freescale/KDS_3.0.0/eclipse/../bin\:/opt/Freescale/KDS_3.0.0/eclipse/../toolchain/bin\:/home/dello/Workspace/android-studio/bin\:/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/usr/games\:/usr/local/games\:/snap/bin
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.2144293917/append=true
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.2144293917/appendContributed=true
