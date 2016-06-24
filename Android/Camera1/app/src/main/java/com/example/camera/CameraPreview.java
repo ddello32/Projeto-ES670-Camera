@@ -3,6 +3,7 @@ package com.example.camera;
 import java.io.IOException;
 
 import android.content.Context;
+import android.graphics.ImageFormat;
 import android.hardware.Camera;
 import android.util.Log;
 import android.view.SurfaceHolder;

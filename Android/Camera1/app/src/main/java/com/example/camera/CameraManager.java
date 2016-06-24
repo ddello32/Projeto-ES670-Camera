@@ -14,17 +14,20 @@ public class CameraManager {
 
     private Camera mCamera;
     private CameraPreview mPreview;
+    private FaceView faceView;
 
-    public void initCameraPreview(ViewGroup parent, Camera.FaceDetectionListener faceDetectionListener){
+    public void initCameraPreview(ViewGroup parent, MirrorControler mirrorControler){
 
         // Create an instance of Camera
         if(mCamera == null) mCamera = getCameraInstance();
-        mCamera.setFaceDetectionListener(faceDetectionListener);
+        faceView = new FaceView(context);
+
+        mCamera.setFaceDetectionListener(new MyFaceDetectionListener(mirrorControler, faceView));
 
         // Create our Preview view and set it as the content of our activity.
         mPreview = new CameraPreview(context, mCamera);
         parent.addView(mPreview);
-
+        parent.addView(faceView);
     }
 
     public void stopCameraPreview(){
