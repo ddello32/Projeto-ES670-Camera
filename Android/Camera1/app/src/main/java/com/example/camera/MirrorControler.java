@@ -6,7 +6,9 @@ import android.hardware.Camera;
 
 public class MirrorControler {
     private final SerialComManager comManager;
-    private int angle = 0;
+    public static final int MIN_ANGLE = 0;
+    public static final int MAX_ANGLE = 90;
+    private int angle = 90;
     private boolean goingUp = false;
     private boolean gotFace = false;
     private Thread mThread;
@@ -18,10 +20,10 @@ public class MirrorControler {
     public void foundFace(Camera.Face face){
         gotFace = true;
         if(face.rect.centerY() < -175 ){
-            setAngle(angle-1);
+            setAngle(angle+1);
         }
         if(face.rect.centerY() > 175){
-            setAngle(angle+1);
+            setAngle(angle-1);
 
         }
     }
@@ -45,10 +47,10 @@ public class MirrorControler {
 
     public void setAngle(int angle){
         goingUp = angle > this.angle;
-        if(angle < 0){
-            this.angle = 0;
-        }else if(angle > 180){
-            this.angle = 180;
+        if(angle < MIN_ANGLE){
+            this.angle = MIN_ANGLE;
+        }else if(angle > MAX_ANGLE){
+            this.angle = MAX_ANGLE;
         }
         else {
             this.angle = angle;
@@ -70,13 +72,13 @@ public class MirrorControler {
                     gotFace = false;
                 }else{
                     if(goingUp){
-                        if(angle == 180){
+                        if(angle == MAX_ANGLE){
                             setAngle(angle-1);
                         }else{
                             setAngle(angle+1);
                         }
                     }else{
-                        if(angle == 0){
+                        if(angle == MIN_ANGLE){
                             setAngle(angle+1);
                         }else{
                             setAngle(angle-1);

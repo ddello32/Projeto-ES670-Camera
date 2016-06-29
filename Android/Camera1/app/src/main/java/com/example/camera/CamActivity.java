@@ -53,7 +53,7 @@ public class CamActivity extends Activity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        mirrorControler.setAngle(90);
+                        mirrorControler.setAngle((MirrorControler.MAX_ANGLE + MirrorControler.MIN_ANGLE)/2);
                     }
                 }
         );
